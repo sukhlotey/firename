@@ -1,0 +1,38 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  text-align: center;
+}
+.inputWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+}
+.inputWrapper input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+::placeholder {
+  color: #d4c2c2;
+}
+.btn-1 {
+  margin-top: 20px;
+  width: 100px;
+  border: 0;
+  padding: 10px;
+  background-color: #2794dd;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-1:active{
+transform: scale(.97);
+}
+

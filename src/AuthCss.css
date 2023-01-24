@@ -1,0 +1,116 @@
+.container-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.input-wrapper input {
+  margin: 5px;
+  padding: 10px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.auth-btn-1 {
+  background-color: #ffff00;
+  border: 0;
+  padding: 10px;
+  margin-left: 10px;
+}
+.auth-btn-2 {
+  background-color: #f3b5f4;
+  border: 0;
+  padding: 10px;
+  margin-left: 10px;
+}
+.out-btn {
+  padding: 10px;
+  background-color: #35bfc3;
+  border: 0;
+  color: #fff;
+  width: 100px;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.input-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.input-wrapper-2 input {
+  margin: 5px;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+::placeholder {
+  color: #c2c1c1;
+}
+.btn-dL {
+  background-color: #a43594;
+  border: 0;
+  padding: 9px;
+  color: #fff;
+  width: 70px;
+}
+.btn-dS {
+  background-color: #1db09f;
+  border: 0;
+  padding: 9px;
+  color: #fff;
+  width: 70px;
+}
+.btn-dOut {
+  background-color: #6047eb;
+  border: 0;
+  padding: 9px;
+  color: #fff;
+  width: 70px;
+}
+button:hover {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  background-color: #0f4835;
+  margin: 0;
+}
+ul:first-child {
+  padding-left: 0;
+}
+li {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+li:hover a {
+  background-color: #21786d;
+  color: #000;
+}
+li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
